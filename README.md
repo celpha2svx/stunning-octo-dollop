@@ -48,7 +48,7 @@
 ### Running the App
 
 ```bash
-python main.py
+python app.py
 ```
 
 The Gradio interface will launch in your browser. You can also share the link with others.
