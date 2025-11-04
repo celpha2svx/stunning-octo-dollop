@@ -1,13 +1,3 @@
----
-title: Ubuntuuu
-emoji: 🐨
-colorFrom: purple
-colorTo: gray
-sdk: gradio
-sdk_version: 5.49.1
-app_file: app.py
-pinned: false
----
 
 # Agentic RAG AI Tutor
 
@@ -59,7 +49,7 @@ pinned: false
 ### Running the App
 
 ```bash
-python main.py
+python app.py
 ```
 
 The Gradio interface will launch in your browser. You can also share the link with others.
@@ -69,9 +59,7 @@ The Gradio interface will launch in your browser. You can also share the link wi
 ```
 agentic_rag_ai/
 │
-├── app.py              # (Legacy) Multi-agent logic (optional)
-├── main.py             # Main entry point with single-model conversational logic
-├── state_schema.py     # (Legacy) State management (optional)
+├── app.py              # Main entry point with single-model conversational logic
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 ```
@@ -94,4 +82,3 @@ MIT License
 ---
 
 *Enjoy learning with your personalized AI tutor!*
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
